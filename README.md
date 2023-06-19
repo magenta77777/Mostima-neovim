@@ -4,12 +4,9 @@
   # Mostima Neovim
   
   <p>莫斯提马天下第一！</p>
-  <br>
 </div>
 
 ***
-
-
 
 ## 项目结构
 
