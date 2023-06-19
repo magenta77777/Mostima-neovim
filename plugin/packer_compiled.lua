@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/Users/jianghan/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
-  ["command-completion.nvim"] = {
-    loaded = true,
-    path = "/Users/jianghan/.local/share/nvim/site/pack/packer/start/command-completion.nvim",
-    url = "https://github.com/smolck/command-completion.nvim"
-  },
   ["dashboard-nvim"] = {
     loaded = true,
     path = "/Users/jianghan/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
@@ -233,6 +228,11 @@ _G.packer_plugins = {
     path = "/Users/jianghan/.local/share/nvim/site/pack/packer/start/schemastore.nvim",
     url = "https://github.com/b0o/schemastore.nvim"
   },
+  ["searchbox.nvim"] = {
+    loaded = true,
+    path = "/Users/jianghan/.local/share/nvim/site/pack/packer/start/searchbox.nvim",
+    url = "https://github.com/VonHeikemen/searchbox.nvim"
+  },
   ["telescope-env.nvim"] = {
     loaded = true,
     path = "/Users/jianghan/.local/share/nvim/site/pack/packer/start/telescope-env.nvim",
@@ -271,10 +271,6 @@ time([[Defining packer_plugins]], false)
 time([[Setup for markdown-preview.nvim]], true)
 try_loadstring("\27LJ\2\n=\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\0\1\2\0\0\rmarkdown\19mkdp_filetypes\6g\bvim\0", "setup", "markdown-preview.nvim")
 time([[Setup for markdown-preview.nvim]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
 -- Config for: nvim-tree.lua
 time([[Config for nvim-tree.lua]], true)
 require('plugin-config.nvim-tree')
@@ -283,6 +279,10 @@ time([[Config for nvim-tree.lua]], false)
 time([[Config for toggleterm.nvim]], true)
 try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Filetype lazy-loads

@@ -31,9 +31,9 @@ lualine.setup({
         --   mac = '', -- e711
         -- },
         symbols = {
-          unix = "LF",
-          dos = "CRLF",
-          mac = "CR",
+          unix = "LF ",
+          dos = "CRLF ",
+          mac = "CR  ",
         },
       },
       "encoding",

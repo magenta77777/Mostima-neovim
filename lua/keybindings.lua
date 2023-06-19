@@ -63,8 +63,8 @@ map("n", "qq", ":q!<CR>", opt)
 map("n", "<leader>q", ":qa!<CR>", opt)
 
 -- insert 模式下，跳到行首行尾
--- map("i", "<C-h>", "<ESC>I", opt)
--- map("i", "<C-l>", "<ESC>A", opt)
+map("i", "<C-h>", "<ESC>I", opt)
+map("i", "<C-l>", "<ESC>A", opt)
 
 ------------------------------------------------------------------
 -- windows 分屏快捷键
@@ -124,6 +124,10 @@ map("n", "Z", ":foldopen<CR>", opt)
 -- nvim-tree
 map("n", "tt", ":NvimTreeToggle<CR>", opt)
 map("n", "<leader>m", ":NvimTreeToggle<CR>", opt)
+
+-- search-box
+map("n", "<leader>f", ":SearchBoxMatchAll<CR>", opt)
+map("n", "<leader>r", ":SearchBoxReplace<CR>", opt)
 -- 列表快捷键
 pluginKeys.nvimTreeList = { -- 打开文件或文件夹
   { key = { "o", "<2-LeftMouse>" }, action = "edit" },

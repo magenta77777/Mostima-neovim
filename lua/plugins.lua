@@ -99,8 +99,11 @@ return require('packer').startup(function(use)
         }
     }
 
+    -- searchbox
+    use ( 'VonHeikemen/searchbox.nvim' )
+
     -- cmd-completion
-    use ( "smolck/command-completion.nvim" )
+    -- use ( "smolck/command-completion.nvim" )
 
     -- markdown
     use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
@@ -109,9 +112,3 @@ return require('packer').startup(function(use)
         require('packer').sync()
     end
 end)
-
-
-
-
-
-
