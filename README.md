@@ -1,16 +1,9 @@
-<style>
-  .text {
-    font-size: 40px
-  }
-</style>
-
-
 <div align="center">
   <img src="http://magenta-note-1305707521.coscd.myqcloud.com/vim.png" alt="vim" style="zoom:60%;" />
-  <br>
-    #Mostima Neovim
-  <br>
-  <p style="text">莫斯提马天下第一！</p>
+  
+  # Mostima Neovim
+  
+  <p>莫斯提马天下第一！</p>
   <br>
 </div>
 
