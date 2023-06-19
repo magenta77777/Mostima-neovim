@@ -1,14 +1,14 @@
 
 
-<img src="http://magenta-note-1305707521.coscd.myqcloud.com/vim.png" alt="vim" style="zoom:60%;" />
-
-<center>
-  <font size = 20>
-    Mostima Neovim
-  </font>  
+<div align="center">
+  <img src="http://magenta-note-1305707521.coscd.myqcloud.com/vim.png" alt="vim" style="zoom:60%;" />
   <br>
-  莫斯提马天下第一！
-</center>
+  <span style="font-size: 40px;">
+    Mostima Neovim
+  </span>  <br>
+  <span style="font-size: 20px;">莫斯提马天下第一！</span>
+  <br>
+</div>
 
 ***
 
