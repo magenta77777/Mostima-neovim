@@ -1,28 +1,15 @@
-
-
 <div align="center">
   <img src="http://magenta-note-1305707521.coscd.myqcloud.com/vim.png" alt="vim" style="zoom:60%;" />
+  
+  # Mostima Neovim
+  
+  <p>莫斯提马天下第一！</p>
   <br>
-  <div>
-    <font size = 20>
-    Mostima Neovim
-  </font>  
-  </div>  <br>
-  莫斯提马天下第一！
 </div>
-
-<span style="font-size: 25px;">Your text here</span>
-
 
 ***
 
-<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-  <span style="font-size: 25px;">Your text here</span>
-</body>
-</html>
+
 
 ## 项目结构
 
