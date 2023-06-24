@@ -34,6 +34,8 @@ require("plugin-config.nvim-treesitter")
 -- 代码补全插件
 require("lsp.setup")
 require("lsp.config.lua")
+require("lsp.cmp")
+require("lsp.ui")
 
 -- 弹窗插件
 require("plugin-config.nvim-notify")
@@ -41,5 +43,9 @@ require("plugin-config.nvim-notify")
 -- 命令行插件
 require("plugin-config.noice")
 
+-- 提示线插件
+require("plugin-config.indent-blankline")
+
 -- 命令补全插件
 -- require("plugin-config.command-completion")
+

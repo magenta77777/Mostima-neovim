@@ -102,6 +102,8 @@ return require('packer').startup(function(use)
     -- searchbox
     use ( 'VonHeikemen/searchbox.nvim' )
 
+    -- blank line
+    use("lukas-reineke/indent-blankline.nvim")
     -- cmd-completion
     -- use ( "smolck/command-completion.nvim" )
 
