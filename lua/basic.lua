@@ -95,3 +95,19 @@ vim.cmd([[command! W w]])
 vim.cmd([[command! Q q]])
 vim.cmd([[command! Wq wq]])
 vim.cmd([[command! WQ wq]])
+
+vim.g.copilot_no_tab_map = true
+vim.g.copilot_assume_mapped = true
+vim.g.copilot_tab_fallback = ""
+vim.g.copilot_filetypes = {
+    ["javascript"] = true,
+    ["typescript"] = true,
+    ["lua"] = true,
+    ["rust"] = true,
+    ["c"] = true,
+    ["c#"] = true,
+    ["c++"] = true,
+    ["go"] = true,
+    ["python"] = true,
+}
+

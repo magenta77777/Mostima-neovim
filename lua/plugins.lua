@@ -75,6 +75,7 @@ return require('packer').startup(function(use)
     use({ "williamboman/mason.nvim" })
     use({ "williamboman/mason-lspconfig.nvim" })
     use({ "neovim/nvim-lspconfig" })
+    -- use({ 'github/copilot.vim' })
 
     -- auto-pair
     use {
@@ -109,6 +110,8 @@ return require('packer').startup(function(use)
 
     -- markdown
     use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+
+    use ({ 'lervag/vimtex' })
 
     if packer_bootstrap then
         require('packer').sync()

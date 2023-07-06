@@ -33,6 +33,7 @@ require("plugin-config.nvim-treesitter")
 
 -- 代码补全插件
 require("lsp.setup")
+require("lsp.config.copilot")
 require("lsp.config.lua")
 require("lsp.cmp")
 require("lsp.ui")
