@@ -100,6 +100,9 @@ return require('packer').startup(function(use)
         }
     }
 
+    -- nui
+    use ({ "MunifTanjim/nui.nvim" })
+
     -- searchbox
     use ( 'VonHeikemen/searchbox.nvim' )
 
